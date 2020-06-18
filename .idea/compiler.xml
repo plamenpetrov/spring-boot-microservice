@@ -9,5 +9,13 @@
         <module name="customers-microservice-rest-api" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="customers-microservice-rest-api" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="customers-microservice-rest-api" options="-parameters" />
+    </option>
   </component>
 </project>
