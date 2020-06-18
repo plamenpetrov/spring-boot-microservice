@@ -1,8 +1,8 @@
-# Java Spring Boot based CRUD application
+# Java Spring Boot RestFull API CRUD application
 
 ## Getting Started
 
-This is basic implementation of RestFull API based on Spring Boot. 
+This is basic implementation of RestFull API based on Spring Boot. So, no frontend implemented.
 
 Download files in your web server directory and extract them or clone repository using git command:
 
@@ -19,6 +19,15 @@ Create .env file using env.example:
 ```
 cp .env.example .env
 ```
+
+### Dependencies
+
+* Web
+* Spring Secutiry Web
+* Spring Boot Starter Data REST
+* JPA
+* H2
+* Lombok
 
 # Main functionalities
 This project is Spring boot based and the main goal was to start using Spring Boot Framework to setup a simple project 
