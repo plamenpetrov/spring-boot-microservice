@@ -1,0 +1,22 @@
+version: '3.5'
+services:
+  app:
+    container_name: customers-api
+    build:
+      context: ./
+      dockerfile: Dockerfile
+      args:
+        ARTIFACT_VERSION: 1.0
+    env_file:
+      - .env
+    volumes:
+      - ".:/var/www/html"
+    ports:
+      - "8091:80"
+    networks:
+      - local-network
+
+networks:
+  local-network:
+    external:
+      name: local-network
