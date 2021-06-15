@@ -1,4 +1,4 @@
-# Java Spring Boot RestFull API CRUD application
+# Java Spring Boot RestFul API CRUD application
 
 ## Getting Started
 
