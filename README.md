@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-This is basic implementation of RestFull API based on Spring Boot. So, no frontend implemented.
+This is basic implementation of RestFul API based on Spring Boot. So, no frontend implemented.
 
 Download files in your web server directory and extract them or clone repository using git command:
 
